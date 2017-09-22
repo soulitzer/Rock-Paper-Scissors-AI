@@ -1,10 +1,6 @@
 # RPSLK-AI
-A project for Honors Intro to Computer Science
+Implements a Markov Chain to play Rock Paper Scissors Lizard Spock (An extension of Rock Paper Scissors).
+* Aggregates transition probabilities in a 2D array. 
+* Select the move that would perform the best against the distribution.
 
-Implements a rudimentary AI algorithm (markov chain transition matrix) to play Rock Paper Scissors Lizard Spock (An extension of Rock Paper Scissors).
-
-Aggregates a probability distribution of human player's next move given their previous move. Then, select the move that would perform the best
-against the distribution.
-
-A two-dimensional array is used to keep track of the user's "habits," specifically the number of times the user transitions from a particular
-move to another.
+This is a project for COMSW1007, Honors Intro to Computer Science
